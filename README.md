@@ -13,7 +13,7 @@ python train.py \
   --save_params
 ```
 
-## 2. Test(pick the best checkpoint by inspecting the loss curve)
+## 2. Test (pick the best checkpoint by inspecting the loss curve)
 ```bash
 python test.py \
   --weight_path policy_itr_123.pt \
